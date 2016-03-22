@@ -38,6 +38,7 @@ gem 'font-awesome-rails', '~> 4.5', '>= 4.5.0.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  gem 'sqlite3'
   gem 'byebug'
 end
 
@@ -53,7 +54,7 @@ end
 
 group :production do
   gem 'pg'
-  gem 'unicorn'
+  # gem 'unicorn'
   gem 'cloudinary'
   gem 'rails_12factor'
 end
