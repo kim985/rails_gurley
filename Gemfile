@@ -36,6 +36,8 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'autoprefixer-rails', '~> 6.3', '>= 6.3.4'
 gem 'font-awesome-rails', '~> 4.5', '>= 4.5.0.1'
 
+gem 'jquery-datetimepicker', '~> 1.1'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'sqlite3'
@@ -73,7 +75,7 @@ gem 'counter_culture', '~> 0.1.33'
 
 gem 'faker'
 gem 'populator'
-gem 'auto_html'
+gem 'auto_html', '~>1.6.4'
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
